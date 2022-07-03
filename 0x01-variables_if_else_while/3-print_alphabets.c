@@ -16,7 +16,6 @@ int main(void)
 	{
 		putchar(atoz);
 	}
-		printf("\n");
 
 	for (AtoZ = 'A'; AtoZ <= 'Z'; AtoZ++)
 	{
