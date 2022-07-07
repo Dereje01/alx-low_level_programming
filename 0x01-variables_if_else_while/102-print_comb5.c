@@ -9,16 +9,16 @@
 int main(void)
 {
 	int d;
+	int e;
 
 	for (d = 0; d < 100; d++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
+		for (e = 0; e < 100; e++)
 		{
+		putchar("d%d%", d, e);
+		}
 			putchar(',');
 			putchar(' ');
-		}
 	}
 	putchar('\n');
 
