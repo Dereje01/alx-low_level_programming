@@ -1,14 +1,15 @@
 #include "lists.h"
 
 /**
- * *add_node - function adds new node to beginning of list
+ * add_node - function adds new node to beginning of list
  *
  *@head: pointer to pointer of head of linked list
  *@str: const char pointer to string
+
 #include "lists.h"
 
-/**
- * *add_node - function adds new node to beginning of list
+**
+ * add_node - function adds new node to beginning of list
  *
  *@head: pointer to pointer of head of linked list
  *@str: const char pointer to string
